@@ -167,8 +167,8 @@ h3.bold {
 .button {
   border: 0 none;
   border-radius: 6px 6px 6px 6px;
-  color: black;
-  background-color: white;
+  color: #FFFFFF;
+  background-color: #76ad82;
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
