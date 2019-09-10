@@ -34,94 +34,18 @@ body {
     @include font-roboto-n4;
     font-size: $fontSize-14;
     line-height: $lineHeight-20;
-    color: $color-grey;
+    color: $color-text;
 }
 
-.body-loading {
+.wrapper {
+    max-width: 100%;
+    margin: 20px;
 
-	#header,
-    #main-wrapper,
-    .footer,
-    .search-outer,
-    .header-userinfo {
-		opacity: .2;		
-	}
-
-	.loading-message {
-		position: fixed;
-		width: 100px;
-		height: 80px;
-		top: 50%;
-		left: 50%;
-		margin-top: -40px;
-		margin-left: -50px;
-		background-color: transparent;
-		z-index: 99999;
-		text-align: center;
-		line-height: 50px;
-		overflow: auto;
-	}
-}
-
-.body-loading2 {
-
-    #header,
-    #main-wrapper,
-    .footer,
-    .search-outer,
-    .header-userinfo {
-        opacity: .1;        
+    @media (min-width: $screen-tablet-min) {
+        max-width: 1200px;
+        margin: 80px auto;
     }
 }
-
-* {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-    color: $color-blue;
-	text-decoration: none;
-}
-
-.link-black {
-    color: $color-darkgrey;
-    text-decoration: none;
-}
-
-.next-arrow,  
-.prev-arrow {
-    cursor: pointer;
-}
-
-.next-arrow:hover svg g,  
-.prev-arrow:hover svg g {
-	fill: $color-blue;
-}
-
-.see-all {
-    @include font-roboto-n4;
-    font-size: $fontSize-14;
-    line-height: $lineHeight-20;
-    color: $color-grey;
-    text-align: center;
-    display: block;
-    margin-top: 32px;
-    text-decoration: underline;
-}
-
-.body-wrapper {
-    width: 100%;
-    max-width: 1480px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-
-.main-margin {
-    padding: 0px 20px;
-}
-
 @media (min-width: $screen-tablet-min) {
     .main-margin {
         padding: 0px 40px;

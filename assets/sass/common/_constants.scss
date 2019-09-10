@@ -17,26 +17,15 @@ $screen-desktop-max:    ($screen-widescreen-min - 1);
 //  Colors
 // -----------------------------------------------------------------------------
 
+$color-bg:           rgba(255, 255,  255, 1); // #FAFAFA
+$color-text:         rgba(68,  68,   68, 1); // #444444
 $color-blue:         rgba(24,  153,  255, 1);
-$color-grey:         rgba(153, 153,  153, 1); // #999999
-$color-lightgrey:    rgba(234, 234,  234, 1); // #EAEAEA
-$color-faintgrey:    rgba(234, 234,  234, .2); // #EAEAEA
-$color-faintgrey2:   rgba(215, 215,  215, .2); // #d7d7d7
-$color-faintgrey3:   rgba(234, 234,  234, 1); // #d7d7d7
-$color-darkgrey:     rgba(68,  68,   68, 1); // #444444
-$color-white:        rgba(255, 255,  255, 1); // #FFFFFF
-$color-bg:           rgba(250, 250,  250, 1); // #FAFAFA
-$color-lightgreen5:  rgba( 223, 240, 216, .5 );
-$color-lightgreen7:  rgba( 223, 240, 216, .7 );
 
-$color-scorehigh:    rgba( 7,   205, 143, 1 ); // 07CD8F
-$color-scoremed:     rgba( 255, 223, 152, 1 ); // FFDF98
-$color-scorelow:     rgba( 255, 151, 151, 1 ); // FF9797
-
-$color-button:       rgba( 7,   205, 143, 1 ); // #07CD8F
-$color-buttonactive: rgba( 8,   135, 95,  1 ); // #08875f
-
-$color-error:        rgba( 255, 151, 151, 1 ); // FF9797
+$color-brand1: rgba(255, 153, 51, 1);
+$color-brand2: rgba(25, 84, 123, 1);
+$color-brand3: rgba(76, 161, 175, 1);
+$color-brand4: rgba(196, 224, 229, 1);
+$color-brand5: rgba(253, 253, 253, 1);
 
 // -----------------------------------------------------------------------------
 //  Font Scale
@@ -97,6 +86,7 @@ $lineHeight-27: 2.7rem;
 $lineHeight-28: 2.8rem;
 $lineHeight-30: 3.0rem;
 $lineHeight-36: 3.6rem;
+$lineHeight-50: 5.0rem;
 
 // -----------------------------------------------------------------------------
 //  Aspect Ratios

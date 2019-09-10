@@ -1,15 +1,22 @@
 h1 {
-    @include font-roboto-n3;
-    font-size: $fontSize-22;
-    line-height: $lineHeight-30;
-    color: $color-grey;
-    text-align: center;
-    margin-bottom: 30px;
+    @include font-roboto-n7;
+    font-size: $fontSize-34;
+    line-height: $lineHeight-36;
+    color: $color-brand2;
+    margin: 0;
+    margin-bottom: 20px;
+
+    @media (min-width: $screen-tablet-min) {
+        font-size: $fontSize-46;
+        line-height: $lineHeight-50;
+        max-width: 800px;
+        margin-bottom: 40px;
+    }
 }
 
 h1 .bold {
     @include font-roboto-n6;
-     color: $color-darkgrey;
+     color: $color-text;
 }
 
 h1 .smaller {
@@ -17,12 +24,18 @@ h1 .smaller {
 }
 
 h2 {
-    @include font-roboto-n4;
-    font-size: $fontSize-18;
-    line-height: $lineHeight-24;
-    color: $color-darkgrey;
-    text-align: center;
-    margin-bottom: 20px;
+    @include font-roboto-n1;
+    font-size: $fontSize-26;
+    line-height: $lineHeight-28;
+    color: $color-text;
+    margin: 0;
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-tablet-min) {
+        font-size: $fontSize-30;
+        line-height: $lineHeight-36;
+        margin-bottom: 10px;
+    }
 }
 
 h2 .bold {
@@ -33,7 +46,7 @@ h3 {
     @include font-roboto-n6;
     font-size: $fontSize-14;
     line-height: $lineHeight-20;
-    color: $color-grey;
+    color: $color-text;
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
@@ -41,7 +54,7 @@ h3 {
 
 h3.bold {
     @include font-roboto-n6;
-    color: $color-darkgrey;
+    color: $color-text;
 }  
 
 .wraptext {

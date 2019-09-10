@@ -1,12 +1,25 @@
 {
-  "private": true,
-  "devDependencies": {
-    "gulp": "^3.8.8",
-    "gulp-compass": "^2.1.0"
+  "name": "dev-advocate.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "bootstrap-sass": "^3.0.0",
-    "laravel-elixir": "^4.0.0",
-    "tippy.js": "^1.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-advocate/dev-advocate.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-advocate/dev-advocate.github.io/issues"
+  },
+  "homepage": "https://github.com/dev-advocate/dev-advocate.github.io#readme",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
   }
 }

@@ -2,6 +2,12 @@
  * Fonts
  */
 
+ @mixin font-roboto-n1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
 @mixin font-roboto-n3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
