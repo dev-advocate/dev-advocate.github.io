@@ -1,0 +1,33 @@
+/*
+ * Fonts
+ */
+
+@mixin font-roboto-n3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+@mixin font-roboto-n4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin font-roboto-n5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@mixin font-roboto-n6 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+@mixin font-roboto-n7 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}

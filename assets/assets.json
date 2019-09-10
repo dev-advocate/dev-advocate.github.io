@@ -1,0 +1,27 @@
+{
+  "less": {
+    "main.less": "dist/styles/main.css"
+  },
+  "appjs": [
+    "custom.js",
+    "theme-widget.js",
+    "insights.js",
+    "core.js"
+  ],
+  "libjs": [
+    "../../bower_components/bootstrap/dist/js/bootstrap.js",
+    "modernizr.build.js",
+    "EQCSS.js",
+    "../../bower_components/slick-carousel/slick/slick.js",
+    "../../bower_components/ScrollToFixed/jquery-scrolltofixed.js",
+    "../../bower_components/fanglestrap/js/fangle-ratio.js",
+    "../../bower_components/fanglestrap/js/fangle-alt-position.js",
+    "../../bower_components/masonry/dist/masonry.pkgd.js",
+    "../../bower_components/imagesloaded/imagesloaded.pkgd.js",
+    "../../bower_components/clipboard/dist/clipboard.js",
+    "../../bower_components/fanglestrap/js/fangle-clipboard-copy.js",
+    "../../bower_components/fanglestrap/js/fangle-external-window.js",
+    "../../bower_components/fitvids/jquery.fitvids.js",
+    "../../bower_components/flexibility/flexibility.js"
+  ]
+}

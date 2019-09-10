@@ -1,0 +1,108 @@
+// -----------------------------------------------------------------------------
+//  Media Queries
+// -----------------------------------------------------------------------------
+
+$screen-mobile-max:      767px;
+$screen-tablet-min:      768px;
+$screen-laptop-min:     1024px;
+$screen-desktop-min:    1280px;
+$screen-widescreen-min: 1920px;
+
+$screen-mobile-max:     ($screen-tablet-min     - 1);
+$screen-tablet-max:     ($screen-laptop-min     - 1);
+$screen-laptop-max:     ($screen-desktop-min    - 1);
+$screen-desktop-max:    ($screen-widescreen-min - 1);
+
+// -----------------------------------------------------------------------------
+//  Colors
+// -----------------------------------------------------------------------------
+
+$color-blue:         rgba(24,  153,  255, 1);
+$color-grey:         rgba(153, 153,  153, 1); // #999999
+$color-lightgrey:    rgba(234, 234,  234, 1); // #EAEAEA
+$color-faintgrey:    rgba(234, 234,  234, .2); // #EAEAEA
+$color-faintgrey2:   rgba(215, 215,  215, .2); // #d7d7d7
+$color-faintgrey3:   rgba(234, 234,  234, 1); // #d7d7d7
+$color-darkgrey:     rgba(68,  68,   68, 1); // #444444
+$color-white:        rgba(255, 255,  255, 1); // #FFFFFF
+$color-bg:           rgba(250, 250,  250, 1); // #FAFAFA
+$color-lightgreen5:  rgba( 223, 240, 216, .5 );
+$color-lightgreen7:  rgba( 223, 240, 216, .7 );
+
+$color-scorehigh:    rgba( 7,   205, 143, 1 ); // 07CD8F
+$color-scoremed:     rgba( 255, 223, 152, 1 ); // FFDF98
+$color-scorelow:     rgba( 255, 151, 151, 1 ); // FF9797
+
+$color-button:       rgba( 7,   205, 143, 1 ); // #07CD8F
+$color-buttonactive: rgba( 8,   135, 95,  1 ); // #08875f
+
+$color-error:        rgba( 255, 151, 151, 1 ); // FF9797
+
+// -----------------------------------------------------------------------------
+//  Font Scale
+// -----------------------------------------------------------------------------
+//
+// There were so many font sizes in the client design that having a named font
+// scale seemed overly difficult - instead, the scale is named numerically.
+//
+
+$fontSize-12: 1.2rem;
+$fontSize-13: 1.3rem;
+$fontSize-14: 1.4rem;
+$fontSize-15: 1.5rem;
+$fontSize-16: 1.6rem;
+$fontSize-17: 1.7rem;
+$fontSize-18: 1.8rem;
+$fontSize-19: 1.9rem;
+$fontSize-20: 2.0rem;
+$fontSize-22: 2.2rem;
+$fontSize-26: 2.6rem;
+$fontSize-28: 2.8rem;
+$fontSize-30: 3.0rem;
+$fontSize-34: 3.4rem;
+$fontSize-36: 3.6rem;
+$fontSize-46: 4.6rem;
+
+// -----------------------------------------------------------------------------
+//  Letter Spacing Scale
+// -----------------------------------------------------------------------------
+//
+// Values in Photoshop correspond to thousanths of an em, e.g., if the Photoshop
+// value is 60, the CSS value is .06em.
+//
+
+$letterSpacing-0:     0em;
+
+// -----------------------------------------------------------------------------
+//  Line-Height Scale
+// -----------------------------------------------------------------------------
+//
+// Unless specifying a height and line-height specifically for vertically
+// centering text or other content, or when specifying line-height as "1em" for
+// positioning purposes, one of these constants MUST be used to specify line-height.
+//
+
+$lineHeight-base:   2.4rem;
+$lineHeight-loose:  2.8rem;
+$lineHeight-looser: 3.0rem;
+
+$lineHeight-14: 1.4rem;
+$lineHeight-15: 1.5rem;
+$lineHeight-16: 1.6rem;
+$lineHeight-18: 1.8rem;
+$lineHeight-20: 2.0rem;
+$lineHeight-24: 2.4rem;
+$lineHeight-26: 2.6rem;
+$lineHeight-27: 2.7rem;
+$lineHeight-28: 2.8rem;
+$lineHeight-30: 3.0rem;
+$lineHeight-36: 3.6rem;
+
+// -----------------------------------------------------------------------------
+//  Aspect Ratios
+// -----------------------------------------------------------------------------
+//
+// Used for scaling responsive video and images.
+
+$ratio-hd:       56.25%; // 16:9
+$ratio-postcard: 63.63%; // 5.5 x 3.5

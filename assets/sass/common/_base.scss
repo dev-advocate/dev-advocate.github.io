@@ -1,0 +1,129 @@
+html {
+
+    // A note on font sizes - According to MDN, font-size values in em are
+    // relative to the parent element's font size, while values in rem are
+    // relative to the font size of the root <html> element.
+    //
+    // @see: https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
+    //
+    // Browser default font size is generally 16px. Font-size is set to 62.5% on
+    // the body so that document base font size is 10px - this allows easy use of
+    // rem units to specify desired font sizes (1.2rem = 12px, etc.), while still
+    // allowing browsers to scale all fonts relatively.
+    //
+    // 1.2rem = 10px * 1.2 = 12px.
+
+    font-size: 62.5%;
+
+
+    // Universal Box Sizing with Inheritance
+    // https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+
+    box-sizing: border-box;
+
+    // Fix font weights
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	background-color: $color-bg;
+    margin: 0;
+    padding: 0;
+
+    @include font-roboto-n4;
+    font-size: $fontSize-14;
+    line-height: $lineHeight-20;
+    color: $color-grey;
+}
+
+.body-loading {
+
+	#header,
+    #main-wrapper,
+    .footer,
+    .search-outer,
+    .header-userinfo {
+		opacity: .2;		
+	}
+
+	.loading-message {
+		position: fixed;
+		width: 100px;
+		height: 80px;
+		top: 50%;
+		left: 50%;
+		margin-top: -40px;
+		margin-left: -50px;
+		background-color: transparent;
+		z-index: 99999;
+		text-align: center;
+		line-height: 50px;
+		overflow: auto;
+	}
+}
+
+.body-loading2 {
+
+    #header,
+    #main-wrapper,
+    .footer,
+    .search-outer,
+    .header-userinfo {
+        opacity: .1;        
+    }
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: $color-blue;
+	text-decoration: none;
+}
+
+.link-black {
+    color: $color-darkgrey;
+    text-decoration: none;
+}
+
+.next-arrow,  
+.prev-arrow {
+    cursor: pointer;
+}
+
+.next-arrow:hover svg g,  
+.prev-arrow:hover svg g {
+	fill: $color-blue;
+}
+
+.see-all {
+    @include font-roboto-n4;
+    font-size: $fontSize-14;
+    line-height: $lineHeight-20;
+    color: $color-grey;
+    text-align: center;
+    display: block;
+    margin-top: 32px;
+    text-decoration: underline;
+}
+
+.body-wrapper {
+    width: 100%;
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.main-margin {
+    padding: 0px 20px;
+}
+
+@media (min-width: $screen-tablet-min) {
+    .main-margin {
+        padding: 0px 40px;
+    }
+}

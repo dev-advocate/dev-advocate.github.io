@@ -1,0 +1,80 @@
+h1 {
+    @include font-roboto-n3;
+    font-size: $fontSize-22;
+    line-height: $lineHeight-30;
+    color: $color-grey;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 .bold {
+    @include font-roboto-n6;
+     color: $color-darkgrey;
+}
+
+h1 .smaller {
+    font-size: $fontSize-18;
+}
+
+h2 {
+    @include font-roboto-n4;
+    font-size: $fontSize-18;
+    line-height: $lineHeight-24;
+    color: $color-darkgrey;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 .bold {
+    @include font-roboto-n6;
+}
+
+h3 {
+    @include font-roboto-n6;
+    font-size: $fontSize-14;
+    line-height: $lineHeight-20;
+    color: $color-grey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h3.bold {
+    @include font-roboto-n6;
+    color: $color-darkgrey;
+}  
+
+.wraptext {
+    /* These are technically the same, but use both */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.smallText {
+    @include font-roboto-n5;
+    font-size: $fontSize-14;
+
+    a.active {
+        text-decoration: underline;
+    }
+}
+
+@media (min-width: $screen-tablet-min) {
+
+    h3 {
+        text-align: left;
+    }
+
+}
