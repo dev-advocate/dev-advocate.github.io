@@ -35,7 +35,9 @@ body {
 
 .bio-photo {
   width: 150px;
-  height: auto; }
+  height: auto;
+  margin: 0 auto;
+  display: block; }
   @media (min-width: 768px) {
     .bio-photo {
       float: left;
@@ -180,7 +182,17 @@ h3.bold {
   padding: 0.875em 1.125em;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-right: 20px; }
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    .button {
+      margin: 0;
+      margin-right: 20px;
+      width: auto;
+      display: inline-block; } }
 
 /* ----------------------------------------------------------- */
 /* == tingle v0.15.1 */
