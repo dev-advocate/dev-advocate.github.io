@@ -31,11 +31,10 @@ body {
     margin: 0;
     padding: 0;
 
-    @include font-roboto-n4;
-    font-size: $fontSize-14;
-    line-height: $lineHeight-20;
+    @include font-roboto-n3;
+    font-size: $fontSize-20;
+    line-height: $lineHeight-28;
     color: $color-text;
-    border-bottom: 10px solid $color-brand4;
 }
 
 .wrapper {
@@ -43,11 +42,32 @@ body {
     margin: 20px;
 
     @media (min-width: $screen-tablet-min) {
-        max-width: 1200px;
+        max-width: 900px;
         padding: 20px;
         margin: 60px auto;
     }
 }
+
+.tingle-modal-box {
+    max-width: 561px;
+}
+
+.ctas {
+    margin: 60px 0;
+}
+
+.bio-photo {
+
+    width: 150px;
+    height: auto;
+
+    @media (min-width: $screen-tablet-min) {
+        float: left;
+        margin: 0 20px 20px 0;
+    }
+
+}
+
 @media (min-width: $screen-tablet-min) {
     .main-margin {
         padding: 0px 40px;

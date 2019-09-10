@@ -25,16 +25,16 @@ h1 .smaller {
 }
 
 h2 {
-    @include font-roboto-n1;
-    font-size: $fontSize-26;
-    line-height: $lineHeight-28;
+    @include font-source-n3;
+    font-size: $fontSize-14;
+    line-height: $lineHeight-20;
     color: $color-text;
     margin: 0;
     margin-bottom: 10px;
 
     @media (min-width: $screen-tablet-min) {
-        font-size: $fontSize-30;
-        line-height: $lineHeight-36;
+        font-size: $fontSize-14;
+        line-height: $lineHeight-20;
         margin-bottom: 10px;
     }
 }
