@@ -82,6 +82,11 @@ body {
         padding-left: 10px;
         border-left: 1px solid #CCCCCC;
         display: inline-block;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 
