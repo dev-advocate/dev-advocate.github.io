@@ -92,6 +92,36 @@ h3.bold {
   font-weight: 600;
   color: #444444; }
 
+.logo {
+  font-family: 'Source Code Pro', monospace;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.6rem;
+  line-height: 2.8rem;
+  color: #444444;
+  margin: 0;
+  margin-bottom: 10px; }
+  @media (min-width: 768px) {
+    .logo {
+      font-size: 3rem;
+      line-height: 3.6rem;
+      margin-bottom: 10px; } }
+  .logo .open {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-style: normal;
+    font-weight: 700; }
+  .logo .close {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Source Code Pro', monospace;
+    font-style: normal;
+    font-weight: 700; }
+
 .wraptext {
   /* These are technically the same, but use both */
   overflow-wrap: break-word;
@@ -128,8 +158,9 @@ h3.bold {
   display: inline-block;
   vertical-align: middle;
   font-size: 1.125em;
-  font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   outline: 0 none;
   text-decoration: none;
   line-height: inherit;
-  padding: 0.875em 1.125em; }
+  padding: 0.875em 1.125em;
+  text-transform: uppercase;
+  letter-spacing: 2px; }

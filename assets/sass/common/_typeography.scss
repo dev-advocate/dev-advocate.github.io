@@ -57,6 +57,35 @@ h3.bold {
     color: $color-text;
 }  
 
+.logo {
+    @include font-source-n3;
+    font-size: $fontSize-26;
+    line-height: $lineHeight-28;
+    color: $color-text;
+    margin: 0;
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-tablet-min) {
+        font-size: $fontSize-30;
+        line-height: $lineHeight-36;
+        margin-bottom: 10px;
+    }
+
+    .open {
+        display: inline-block;
+        margin-right: 5px;
+        font-size: 20px;
+        @include font-source-n7;
+    }
+
+    .close {
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 20px;
+        font-weight: 700;
+        @include font-source-n7;
+    }
+}
 .wraptext {
     /* These are technically the same, but use both */
     overflow-wrap: break-word;

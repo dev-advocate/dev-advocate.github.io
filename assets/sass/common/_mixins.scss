@@ -2,6 +2,20 @@
  * Fonts
  */
 
+
+ @mixin font-source-n3 {
+    font-family: 'Source Code Pro', monospace;
+    font-style: normal;
+    font-weight: 300;
+}
+
+@mixin font-source-n7 {
+    font-family: 'Source Code Pro', monospace;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
  @mixin font-roboto-n1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
