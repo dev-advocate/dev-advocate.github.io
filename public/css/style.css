@@ -8,7 +8,7 @@ html {
   -moz-osx-font-smoothing: grayscale; }
 
 body {
-  background-color: black;
+  background-color: white;
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
@@ -16,37 +16,64 @@ body {
   font-weight: 300;
   font-size: 2rem;
   line-height: 2.8rem;
-  color: white; }
+  color: black; }
 
 .wrapper {
   max-width: 100%;
   margin: 20px; }
   @media (min-width: 768px) {
     .wrapper {
-      max-width: 900px;
+      max-width: 650px;
       padding: 20px;
       margin: 60px auto; } }
 
 .tingle-modal-box {
   max-width: 561px; }
+  .tingle-modal-box .tingle-modal-box__content {
+    min-height: 300px;
+    background-image: url(/public/svg/loading.svg);
+    background-position: center center;
+    background-size: 50px auto;
+    background-repeat: no-repeat; }
 
 .ctas {
   margin: 60px 0; }
 
 .bio {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
-  overflow: auto; }
-
-.bio-photo {
-  width: 150px;
-  height: auto;
-  margin: 0 auto;
-  display: block; }
+  overflow: auto;
+  max-width: 800px;
+  background-color: #9fb1bc;
+  padding: 25px;
+  border-radius: 20px;
+  font-size: 2rem;
+  color: white;
+  text-align: center; }
   @media (min-width: 768px) {
-    .bio-photo {
-      float: left;
-      margin: 0 20px 20px 0; } }
+    .bio {
+      text-align: left; } }
+  .bio .bio-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px; }
+    @media (min-width: 768px) {
+      .bio .bio-title {
+        text-align: left;
+        margin-bottom: 10px; } }
+  .bio .bio-photo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (min-width: 768px) {
+      .bio .bio-photo {
+        float: left;
+        margin: 0 25px 20px 0;
+        margin-top: 35px; } }
 
 .footer {
   clear: both;
@@ -54,7 +81,7 @@ body {
   font-size: 14px;
   line-height: 14px; }
   .footer a {
-    color: white;
+    color: #6e8898;
     margin-left: 10px;
     padding-left: 10px;
     border-left: 1px solid #CCCCCC;
@@ -73,7 +100,7 @@ h1 {
   font-weight: 700;
   font-size: 3.4rem;
   line-height: 3.8rem;
-  color: #a5d6ff;
+  color: #2e5266;
   margin: 0;
   margin-bottom: 40px;
   max-width: 500px; }
@@ -88,7 +115,7 @@ h1 .bold {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 600;
-  color: white; }
+  color: black; }
 
 h1 .smaller {
   font-size: 1.8rem; }
@@ -99,7 +126,7 @@ h2 {
   font-weight: 300;
   font-size: 1.4rem;
   line-height: 2rem;
-  color: white;
+  color: black;
   margin: 0;
   margin-bottom: 10px; }
   @media (min-width: 768px) {
@@ -119,7 +146,7 @@ h3 {
   font-weight: 600;
   font-size: 1.4rem;
   line-height: 2rem;
-  color: white;
+  color: black;
   margin-bottom: 20px;
   margin-top: 20px;
   text-align: center; }
@@ -128,7 +155,7 @@ h3.bold {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 600;
-  color: white; }
+  color: black; }
 
 .logo {
   font-family: 'Source Code Pro', monospace;
@@ -136,7 +163,7 @@ h3.bold {
   font-weight: 300;
   font-size: 2.6rem;
   line-height: 2.8rem;
-  color: white;
+  color: black;
   margin: 40px 0px 20px 0; }
   @media (min-width: 768px) {
     .logo {
@@ -190,7 +217,7 @@ h3.bold {
   border: 0 none;
   border-radius: 6px 6px 6px 6px;
   color: #FFFFFF;
-  background-color: #76ad82;
+  background-color: #e2c044;
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
@@ -202,13 +229,16 @@ h3.bold {
   padding: 0.875em 1.125em;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
   margin: 0 auto;
   display: block;
   width: 200px;
   text-align: center;
   margin-bottom: 20px; }
   .button:hover {
-    background-color: #477651;
+    background-color: #a6881a;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -o-transition: all 200ms ease;

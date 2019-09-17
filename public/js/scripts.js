@@ -23,7 +23,7 @@ document.addEventListener('click', function (event) {
         }
     });
 
-    modal.setContent('<iframe src="https://services.cognitoforms.com/f/GhIb2C-hDUWSeIR5xktX6w?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="764" width="100%"></iframe><script src="https://services.cognitoforms.com/scripts/embed.js"></script>');
+    modal.setContent('<iframe src="https://services.cognitoforms.com/f/GhIb2C-hDUWSeIR5xktX6w?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="764" width="100%" allowtransparency="true"></iframe><script src="https://services.cognitoforms.com/scripts/embed.js"></script>');
 
 
     modal.open();
@@ -55,7 +55,7 @@ document.addEventListener('click', function (event) {
         }
     });
 
-    modal.setContent('<iframe src="https://services.cognitoforms.com/f/GhIb2C-hDUWSeIR5xktX6w?id=2" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="616" width="100%"></iframe><script src="https://services.cognitoforms.com/scripts/embed.js"></script>');
+    modal.setContent('<iframe src="https://services.cognitoforms.com/f/GhIb2C-hDUWSeIR5xktX6w?id=2" allowtransparency="true" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="616" width="100%"></iframe><script src="https://services.cognitoforms.com/scripts/embed.js"></script>');
 
 
     modal.open();
